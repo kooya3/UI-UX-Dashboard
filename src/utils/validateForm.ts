@@ -1,5 +1,5 @@
 /* eslint-disable no-plusplus */
-import { FormValues } from 'interfaces/property';
+import { FormValues } from '../interfaces/property';
 
 export const validateForm = (formValues: FormValues) => {
   const errors: { message: string } = { message: '' };
