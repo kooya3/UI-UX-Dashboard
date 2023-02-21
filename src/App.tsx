@@ -8,6 +8,8 @@ import { Refine, AuthProvider} from '@pankod/refine-core';
 ,ReadyPage
 ,ErrorComponent} from '@pankod/refine-mui';
 
+import { AccountCircleOutlined, ChatBubbleOutline, PeopleAltOutlined, StarOutlineRounded, VillaOutlined } from "@mui/icons-material";
+
 import dataProvider from "@pankod/refine-simple-rest";
 import { MuiInferencer } from "@pankod/refine-inferencer/mui";
 import routerProvider from "@pankod/refine-react-router-v6";
@@ -103,6 +105,29 @@ catchAll={<ErrorComponent />}
 resources={[
                     {
                         name: "property",
+                        list: MuiInferencer,
+                        icon: <VillaOutlined />
+                    },
+                    {
+                        name: "agent",
+                        icon: <PeopleAltOutlined />,
+                        list: MuiInferencer,
+                    },
+                    {
+                        name: "review",
+                        icon: <StarOutlineRounded />,
+                        list: MuiInferencer,
+                    },
+                    {
+                        name: "message",
+                        icon: <ChatBubbleOutline />,
+                        list: MuiInferencer,
+                    },
+                    {
+                        name: "my-profile",
+                        icon: <AccountCircleOutlined />,
+                        options: { label: 'My Profile'},
+                        list: MuiInferencer,
                     },
                 ]}
 Title={Title}
