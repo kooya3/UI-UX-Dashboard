@@ -102,12 +102,7 @@ ReadyPage={ReadyPage}
 catchAll={<ErrorComponent />}
 resources={[
                     {
-                        name: "posts",
-                        list: MuiInferencer,
-                        edit: MuiInferencer,
-                        show: MuiInferencer,
-                        create: MuiInferencer,
-                        canDelete: true,
+                        name: "property",
                     },
                 ]}
 Title={Title}
