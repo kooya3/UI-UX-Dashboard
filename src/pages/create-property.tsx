@@ -11,6 +11,9 @@ const CreateProperty = () => {
   const [propertyImage, setPropertyImage] = useState({ name: '', url: '' })
   const { refineCore: { onFinish, formLoading }, register, handleSubmit } = useForm();
 
+  const handleImageChange = () => {};
+  const onFinishHandler = () => {};
+
   return (
     <Form
       type="Create"
@@ -18,6 +21,8 @@ const CreateProperty = () => {
       onFinish={onFinish}
       formLoading={formLoading}
       handleSubmit={handleSubmit}
+      handleImageChange={handleImageChange}
+      onFinishHandler={onFinishHandler}
       propertyImage={propertyImage}
     />
   )
