@@ -1,13 +1,22 @@
-import { Login } from './login';
-import Home from './home'; 
-import Agents from './agent';
-import MyProfile from './my-profile';
-import PropertyDetails from './property-details'; 
-import AllProperties from './all-properties'; 
-import CreateProperty from './create-property'; 
+
 import AgentProfile from './agent-profile';
+import Agents from './agent';
+import AllProperties from './all-properties';
+import CreateProperty from './create-property';
+import Home from './home';
+import { Login } from './login';
+import MyProfile from './my-profile';
+import PropertyDetails from './property-details';
 import EditProperty from './edit-property';
 
 export {
-    Login, Home, Agents, MyProfile, PropertyDetails, AllProperties, CreateProperty, AgentProfile, EditProperty
-}
+  AgentProfile,
+  Agents,
+  AllProperties,
+  CreateProperty,
+  Home,
+  Login,
+  MyProfile,
+  PropertyDetails,
+  EditProperty,
+};
