@@ -104,7 +104,7 @@ ReadyPage={ReadyPage}
 catchAll={<ErrorComponent />}
 resources={[
                     {
-                        name: "property",
+                        name: "properties",
                         icon: <VillaOutlined />,
                         list: AllProperties,
                         show: PropertyDetails,
@@ -112,18 +112,18 @@ resources={[
                         edit: EditProperty,
                     },
                     {
-                        name: "agent",
+                        name: "agents",
                         icon: <PeopleAltOutlined />,
                         list: Agents,
                         show: AgentProfile,
                     },
                     {
-                        name: "review",
+                        name: "reviews",
                         icon: <StarOutlineRounded />,
                         list: Home,
                     },
                     {
-                        name: "message",
+                        name: "messages",
                         icon: <ChatBubbleOutline />,
                         list: Home,
                     },
