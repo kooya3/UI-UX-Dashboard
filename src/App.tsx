@@ -105,11 +105,11 @@ catchAll={<ErrorComponent />}
 resources={[
                     {
                         name: "property",
+                        icon: <VillaOutlined />,
                         list: AllProperties,
                         show: PropertyDetails,
                         create: CreateProperty,
                         edit: EditProperty,
-                        icon: <VillaOutlined />
                     },
                     {
                         name: "agent",
