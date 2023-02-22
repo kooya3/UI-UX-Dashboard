@@ -4,7 +4,18 @@ import CustomButton from './CustomButton';
 
 const Form = ({ type, register, handleSubmit, handleImageChange, formLoading, onFinishHandler, propertyImage }: FormProps) => {
   return (
-    <div>Form</div>
+    <Box>
+      <Typography fontSize={25} fontWeight={700} color='#11142d'> 
+          {type} a Property
+      </Typography>
+      <Box mt={2.5} borderRadius="15px" padding="20px" bgcolor="#fcfcfc">
+        <form style={{
+          marginTop: '20px', width: '100%', display: 'flex', flexDirection: 'column', gap:'20px'
+        }}>
+
+        </form>
+      </Box>
+    </Box>
   )
 }
 
