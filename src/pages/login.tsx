@@ -47,7 +47,7 @@ export const Login: React.FC = () => {
     return (
         <Box
         component="div"
-        sx={{ backgroundColor: '#fcfcfc' }}
+        sx={{ backgroundColor: '#FCFCFC' }}
     >
         <Container
             component="main"
