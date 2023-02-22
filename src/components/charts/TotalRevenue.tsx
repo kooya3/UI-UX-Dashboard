@@ -20,6 +20,17 @@ const TotalRevenue = () => {
       </Typography>
       <Stack my={20} direction="row" gap={4} flexWrap="wrap">
         <Typography fontSize={28} fontWeight={700} color="#11142d" >$236,535</Typography>
+        <Stack>
+          <ArrowCircleUpRounded 
+            sx={{
+              fontSize: 25,
+              color: '#475be8'
+            }}
+          />
+          <Stack>
+            
+          </Stack>
+        </Stack>
       </Stack>
 
     </Box>
