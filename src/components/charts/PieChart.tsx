@@ -29,7 +29,7 @@ const PieChart = ({ title, value, series, colors }: PieChartProps) => {
           {value} 
         </Typography>        
       </Stack>
-      
+             
       <ReactApexChart 
         options={{
           chart: { type: 'donut' },
