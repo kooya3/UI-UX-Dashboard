@@ -105,29 +105,33 @@ catchAll={<ErrorComponent />}
 resources={[
                     {
                         name: "property",
-                        list: MuiInferencer,
+                        list: AllProperties,
+                        show: PropertyDetails,
+                        create: CreateProperty,
+                        edit: EditProperty,
                         icon: <VillaOutlined />
                     },
                     {
                         name: "agent",
                         icon: <PeopleAltOutlined />,
-                        list: MuiInferencer,
+                        list: Agents,
+                        show: AgentProfile,
                     },
                     {
                         name: "review",
                         icon: <StarOutlineRounded />,
-                        list: MuiInferencer,
+                        list: Home,
                     },
                     {
                         name: "message",
                         icon: <ChatBubbleOutline />,
-                        list: MuiInferencer,
+                        list: Home,
                     },
                     {
                         name: "my-profile",
                         icon: <AccountCircleOutlined />,
                         options: { label: 'My Profile'},
-                        list: MuiInferencer,
+                        list: MyProfile,
                     },
                 ]}
 Title={Title}
