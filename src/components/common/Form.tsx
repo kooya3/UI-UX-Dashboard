@@ -96,11 +96,14 @@ const Form = ({ type, register, handleSubmit, handleImageChange, formLoading, on
             required
             id="outlined-basic"
             color="info"
-            type="number"
             variant="outlined"
-            {...register('price', { rquired: true })}
+            {...register('location', { rquired: true })}
             />
           </FormControl>
+
+          <Stack direction="column" gap={1} justifyContent="center" mb={2}>
+            <Stack ></Stack>
+          </Stack>
         </form>
       </Box>
     </Box>
