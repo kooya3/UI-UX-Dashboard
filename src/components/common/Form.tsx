@@ -71,7 +71,36 @@ const Form = ({ type, register, handleSubmit, handleImageChange, formLoading, on
 
               </Select>
             </FormControl>
+            <FormControl>
+            <FormHelperText sx={{ fontWeight: 500, margin: '10px 0', fontSize:16, color: '#11142d'}}>
+              Enter Property Price
+            </FormHelperText>
+            <TextField 
+            fullWidth
+            required
+            id="outlined-basic"
+            color="info"
+            type="number"
+            variant="outlined"
+            {...register('price', { rquired: true })}
+            />
+          </FormControl>
           </Stack>
+
+          <FormControl>
+            <FormHelperText sx={{ fontWeight: 500, margin: '10px 0', fontSize:16, color: '#11142d'}}>
+              Enter Location
+            </FormHelperText>
+            <TextField 
+            fullWidth
+            required
+            id="outlined-basic"
+            color="info"
+            type="number"
+            variant="outlined"
+            {...register('price', { rquired: true })}
+            />
+          </FormControl>
         </form>
       </Box>
     </Box>
