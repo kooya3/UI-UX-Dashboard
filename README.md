@@ -44,9 +44,8 @@ The Real Estate App is built using the following technologies:
 - Shell for script automation and management
 - JavaScript for general application logic
 
-## Screenshots
-![Screenshot of the homepage](/screenshots/homepage.png)
-![Screenshot of the property details page](/screenshots/property-details.png)
+## Screenshot🎞️
+![homepage](https://user-images.githubusercontent.com/84116117/222279038-06b7b0c8-06f0-4f58-aef4-f7e9256a8135.png)
 
 ## Contributing
 Contributions to the Real Estate App are welcome! If you'd like to contribute, please follow these steps:
