@@ -1,38 +1,60 @@
 # 🐨Tatua's Real Estate App🏁✨✨
 
 ## Description
-🏡 This is a basic CRUD web application built with the MERN stack (MongoDB, Express, React, Node.js) using TypeScript, CSS, Shell, and JavaScript. Its primary purpose is to test our skills in building CRUD applications. The app also features Google OAuth authentication.
+🏡 The Real Estate App is a full-stack web application built using the MERN stack (MongoDB, Express, React, Node.js) and TypeScript. It is designed to help real estate agents and property managers manage their listings by providing them with a platform to create, read, update, and delete property data.
+
+In addition, the Real Estate App also features Google OAuth authentication, allowing users to securely sign in using their Google credentials.
 
 ## Installation
-To install this app locally, follow the steps below:
+To install the Real Estate App locally, follow the steps below:
 
-1. Clone the repository to your local machine
-2. Run `npm install` to install dependencies
-3. Create a `.env` file and add the necessary environment variables
-4. Run `npm run start` to start the app
+1. Clone the repository to your local machine using `git clone https://github.com/username/repo.git`
+2. Navigate to the project directory and run `npm install` to install the dependencies
+3. Create a `.env` file in the root directory and add the following environment variables:
+```bash
+MONGO_URI=<your_mongodb_uri>
+
+GOOGLE_CLIENT_ID=<your_google_client_id>
+
+GOOGLE_CLIENT_SECRET=<your_google_client_secret>
+
+```
+
+4. Run `npm start` to start the development server
+5. Navigate to `http://localhost:3000` to view the app in your browser
 
 ## Features
-- Create, Read, Update, and Delete (CRUD) properties and users
-- Google OAuth2 authentication
-- Built with TypeScript, CSS, Shell, and JavaScript
-- Basic interface for adding properties, with images and details
+The Real Estate App comes with the following features:
+
+- Create, read, update, and delete (CRUD) properties
+- View a list of all properties or filter by property type or location
+- View a detailed page for each property, with an image gallery and description
+- Google OAuth2 authentication for secure user authentication
+- Responsive design that works across all devices
 
 ## Tech Stack
-- MongoDB
-- Express.js
-- React.js
-- Node.js
-- TypeScript
-- CSS
-- Shell
-- JavaScript
+The Real Estate App is built using the following technologies:
+
+- MongoDB for data storage
+- Express.js for the backend server
+- React.js for the frontend user interface
+- Node.js for the server-side runtime environment
+- TypeScript for type checking and strict typing
+- CSS for styling the user interface
+- Shell for script automation and management
+- JavaScript for general application logic
 
 ## Screenshots
-![localhost_3000_ (1)](https://user-images.githubusercontent.com/84116117/222265456-bb311168-a459-4aa7-9e38-d8af4f67fcec.png)
+![Screenshot of the homepage](/screenshots/homepage.png)
+![Screenshot of the property details page](/screenshots/property-details.png)
 
 ## Contributing
-Contributions are welcome! Feel free to fork the repository and create a pull request.
-try out the site and create more properties
+Contributions to the Real Estate App are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Commit your changes and push to your fork
+4. Submit a pull request
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more information.
+The Real Estate App is licensed under the MIT License. See the [LICENSE](/LICENSE) file for more information.
