@@ -1,4 +1,4 @@
-# Tatua's Real Estate App
+# 🐨Tatua's Real Estate App🏁✨✨
 
 ## Description
 🏡 This is a basic CRUD web application built with the MERN stack (MongoDB, Express, React, Node.js) using TypeScript, CSS, Shell, and JavaScript. Its primary purpose is to test our skills in building CRUD applications. The app also features Google OAuth authentication.
