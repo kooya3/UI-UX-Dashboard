@@ -5,6 +5,11 @@
 
 In addition, the Real Estate App also features Google OAuth authentication, allowing users to securely sign in using their Google credentials.
 
+## How to add a property
+To add a property to the application, hit the property button in the sider layout. Then click on add property and write a description and name title. Then upload an image from your device.
+![yariga-ely netlify app_properties (1)](https://user-images.githubusercontent.com/84116117/222881949-c8c5824b-8842-4da4-918b-a4e5df69dae4.png)
+
+ 
 ## Installation
 To install the Real Estate App locally, follow the steps below:
 
